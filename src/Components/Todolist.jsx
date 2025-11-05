@@ -100,7 +100,7 @@ function Todolist() {
   return (
     <>
       <Container maxWidth="xs">
-        <Card sx={{ minWidth: 275 }}>
+        <Card sx={{ minWidth: 275, maxHeight: "600px", overflow: "auto" }}>
           <CardContent>
             {/* // TITLE HERE // */}
             <Typography
