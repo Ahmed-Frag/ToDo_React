@@ -3,7 +3,7 @@ import { TodosReducer } from "../reducxs/TodosReducer";
 export const TodoList = createContext([]);
 
 function TodoListContextProvider({ children }) {
-  const [Todos, dispatch] = useReducer(TodosReducx, []);
+  const [Todos, dispatch] = useReducer(TodosReducer, []);
   return (
     <>
       <TodoList.Provider value={{ Todos, dispatch }}>
